@@ -1,0 +1,166 @@
+{
+    "error": "0",
+    "total": "20",
+    "books": [
+        {
+            "title": "Game Hacking Academy",
+            "subtitle": "A Beginner&#039;s Guide to Understanding Game Hacking Techniques",
+            "isbn13": "1001668595152",
+            "price": "$0.00",
+            "image": "https://itbook.store/img/books/1001668595152.png",
+            "url": "https://itbook.store/books/1001668595152"
+        },
+        {
+            "title": "Kafka: The Definitive Guide, 2nd Edition",
+            "subtitle": "Real-Time Data and Stream Processing at Scale",
+            "isbn13": "9781492043089",
+            "price": "$31.99",
+            "image": "https://itbook.store/img/books/9781492043089.png",
+            "url": "https://itbook.store/books/9781492043089"
+        },
+        {
+            "title": "Deno Succinctly",
+            "subtitle": "",
+            "isbn13": "9781642002140",
+            "price": "$0.00",
+            "image": "https://itbook.store/img/books/9781642002140.png",
+            "url": "https://itbook.store/books/9781642002140"
+        },
+        {
+            "title": "Robotics, AI, and Humanity",
+            "subtitle": "Science, Ethics, and Policy",
+            "isbn13": "9783030541729",
+            "price": "$59.99",
+            "image": "https://itbook.store/img/books/9783030541729.png",
+            "url": "https://itbook.store/books/9783030541729"
+        },
+        {
+            "title": "Introduction to Autonomous Robots, 3rd Edition",
+            "subtitle": "",
+            "isbn13": "9781493773077",
+            "price": "$20.99",
+            "image": "https://itbook.store/img/books/9781493773077.png",
+            "url": "https://itbook.store/books/9781493773077"
+        },
+        {
+            "title": "Learning Go",
+            "subtitle": "An Idiomatic Approach to Real-World Go Programming",
+            "isbn13": "9781492077213",
+            "price": "$35.88",
+            "image": "https://itbook.store/img/books/9781492077213.png",
+            "url": "https://itbook.store/books/9781492077213"
+        },
+        {
+            "title": "Open Workbook of Cryptology",
+            "subtitle": "A project-based introduction to crypto in Python",
+            "isbn13": "1001656678502",
+            "price": "$0.00",
+            "image": "https://itbook.store/img/books/1001656678502.png",
+            "url": "https://itbook.store/books/1001656678502"
+        },
+        {
+            "title": "Embracing Modern C++ Safely",
+            "subtitle": "",
+            "isbn13": "9780137380350",
+            "price": "$44.87",
+            "image": "https://itbook.store/img/books/9780137380350.png",
+            "url": "https://itbook.store/books/9780137380350"
+        },
+        {
+            "title": "Retro Gaming with Raspberry Pi, 2nd Edition",
+            "subtitle": "",
+            "isbn13": "1001656317756",
+            "price": "$0.00",
+            "image": "https://itbook.store/img/books/1001656317756.png",
+            "url": "https://itbook.store/books/1001656317756"
+        },
+        {
+            "title": "Debugging with GDB",
+            "subtitle": "The GNU Source-Level Debugger",
+            "isbn13": "9780983159230",
+            "price": "$65.00",
+            "image": "https://itbook.store/img/books/9780983159230.png",
+            "url": "https://itbook.store/books/9780983159230"
+        },
+        {
+            "title": "Grokking Machine Learning",
+            "subtitle": "",
+            "isbn13": "9781617295911",
+            "price": "$49.49",
+            "image": "https://itbook.store/img/books/9781617295911.png",
+            "url": "https://itbook.store/books/9781617295911"
+        },
+        {
+            "title": "Functional Programming in Kotlin",
+            "subtitle": "",
+            "isbn13": "9781617297168",
+            "price": "$18.63",
+            "image": "https://itbook.store/img/books/9781617297168.png",
+            "url": "https://itbook.store/books/9781617297168"
+        },
+        {
+            "title": "Kubernetes Native Microservices with Quarkus and MicroProfile",
+            "subtitle": "",
+            "isbn13": "9781617298653",
+            "price": "$45.30",
+            "image": "https://itbook.store/img/books/9781617298653.png",
+            "url": "https://itbook.store/books/9781617298653"
+        },
+        {
+            "title": "How to Lead in Data Science",
+            "subtitle": "",
+            "isbn13": "9781617298899",
+            "price": "$43.49",
+            "image": "https://itbook.store/img/books/9781617298899.png",
+            "url": "https://itbook.store/books/9781617298899"
+        },
+        {
+            "title": "Functional Programming in C#, 2nd Edition",
+            "subtitle": "",
+            "isbn13": "9781617299827",
+            "price": "$53.99",
+            "image": "https://itbook.store/img/books/9781617299827.png",
+            "url": "https://itbook.store/books/9781617299827"
+        },
+        {
+            "title": "Azure Pipelines Succinctly",
+            "subtitle": "",
+            "isbn13": "9781642002133",
+            "price": "$0.00",
+            "image": "https://itbook.store/img/books/9781642002133.png",
+            "url": "https://itbook.store/books/9781642002133"
+        },
+        {
+            "title": "Microsoft Excel Inside Out",
+            "subtitle": "Office 2021 and Microsoft 365",
+            "isbn13": "9780137559534",
+            "price": "$42.16",
+            "image": "https://itbook.store/img/books/9780137559534.png",
+            "url": "https://itbook.store/books/9780137559534"
+        },
+        {
+            "title": "Windows Internals, Part 2, 7th Edition",
+            "subtitle": "",
+            "isbn13": "9780135462409",
+            "price": "$53.49",
+            "image": "https://itbook.store/img/books/9780135462409.png",
+            "url": "https://itbook.store/books/9780135462409"
+        },
+        {
+            "title": "Microsoft Office Inside Out",
+            "subtitle": "Office 2021 and Microsoft 365",
+            "isbn13": "9780137564095",
+            "price": "$36.93",
+            "image": "https://itbook.store/img/books/9780137564095.png",
+            "url": "https://itbook.store/books/9780137564095"
+        },
+        {
+            "title": "Microsoft Excel Step by Step",
+            "subtitle": "Office 2021 and Microsoft 365",
+            "isbn13": "9780137564279",
+            "price": "$30.32",
+            "image": "https://itbook.store/img/books/9780137564279.png",
+            "url": "https://itbook.store/books/9780137564279"
+        }
+    ]
+}

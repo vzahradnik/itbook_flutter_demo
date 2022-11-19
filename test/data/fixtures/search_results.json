@@ -1,0 +1,71 @@
+{
+    "error": "0",
+    "total": "8",
+    "page": "1",
+    "books": [
+        {
+            "title": "Building Games with Flutter",
+            "subtitle": "The ultimate guide to creating multiplatform games using the Flame engine in Flutter 3",
+            "isbn13": "9781801816984",
+            "price": "$39.99",
+            "image": "https://itbook.store/img/books/9781801816984.png",
+            "url": "https://itbook.store/books/9781801816984"
+        },
+        {
+            "title": "Taking Flutter to the Web",
+            "subtitle": "Learn how to build cross-platform UIs for web and mobile platforms using Flutter for Web",
+            "isbn13": "9781801817714",
+            "price": "$44.99",
+            "image": "https://itbook.store/img/books/9781801817714.png",
+            "url": "https://itbook.store/books/9781801817714"
+        },
+        {
+            "title": "Flutter Succinctly",
+            "subtitle": "",
+            "isbn13": "1001657540815",
+            "price": "$0.00",
+            "image": "https://itbook.store/img/books/1001657540815.png",
+            "url": "https://itbook.store/books/1001657540815"
+        },
+        {
+            "title": "Beginning App Development with Flutter",
+            "subtitle": "Create Cross-Platform Mobile Apps",
+            "isbn13": "9781484251805",
+            "price": "$30.88",
+            "image": "https://itbook.store/img/books/9781484251805.png",
+            "url": "https://itbook.store/books/9781484251805"
+        },
+        {
+            "title": "Flutter in Action",
+            "subtitle": "",
+            "isbn13": "9781617296147",
+            "price": "$27.14",
+            "image": "https://itbook.store/img/books/9781617296147.png",
+            "url": "https://itbook.store/books/9781617296147"
+        },
+        {
+            "title": "Flutter UI Succinctly",
+            "subtitle": "",
+            "isbn13": "9781642002195",
+            "price": "$0.00",
+            "image": "https://itbook.store/img/books/9781642002195.png",
+            "url": "https://itbook.store/books/9781642002195"
+        },
+        {
+            "title": "Programming Flutter",
+            "subtitle": "Native, Cross-Platform Apps the Easy Way",
+            "isbn13": "9781680506952",
+            "price": "$42.73",
+            "image": "https://itbook.store/img/books/9781680506952.png",
+            "url": "https://itbook.store/books/9781680506952"
+        },
+        {
+            "title": "Vue.js Succinctly",
+            "subtitle": "",
+            "isbn13": "9781642002003",
+            "price": "$0.00",
+            "image": "https://itbook.store/img/books/9781642002003.png",
+            "url": "https://itbook.store/books/9781642002003"
+        }
+    ]
+}
