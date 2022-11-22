@@ -122,7 +122,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             onTap: () => Navigator.of(context).push(
                               MaterialPageRoute(
                                   builder: (context) =>
-                                      BookDetails(book: snapshot.data![index])),
+                                      BookDetails(isbn: snapshot.data![index].isbn13)),
                             ),
                             child: BookCard(
                                 imageUri: snapshot.data![index].image,

@@ -4,8 +4,8 @@ A simple Flutter application which allows users to search and explore IT Booksto
 ## Features
 - List latest IT books on app start ✅
 - Search support ✅
-- Display book details ❌
-- Animations between screens ❌
+- Display book details ✅
+- Animations between screens ✅
 - Dark mode support ❌
 - Landscape support ❌
 - Multilanguage support (SK, CS, EN, DE) ❌

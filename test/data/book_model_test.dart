@@ -2,12 +2,14 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
+import 'package:html_unescape/html_unescape.dart';
 import 'package:itbook_flutter_demo/data/book_model.dart';
 
 void main() {
   test("Partial book entry should be parsed without errors.", () async {
+      final HtmlUnescape htmlUnescape = HtmlUnescape();
       String jsonPayload = await File("./test/data/fixtures/search_results.json").readAsString();
-      Map<String, dynamic> searchResults = jsonDecode(jsonPayload);
+      Map<String, dynamic> searchResults = jsonDecode(htmlUnescape.convert(jsonPayload));
       var book = Book.fromJson(searchResults["books"][0]);
 
       expect(book.title, "Building Games with Flutter");
@@ -27,8 +29,9 @@ void main() {
     });
 
   test("Book details are parsed without errors.", () async {
+    final HtmlUnescape htmlUnescape = HtmlUnescape();
     String jsonPayload = await File("./test/data/fixtures/book_details.json").readAsString();
-    Map<String, dynamic> searchResults = jsonDecode(jsonPayload);
+    Map<String, dynamic> searchResults = jsonDecode(htmlUnescape.convert(jsonPayload));
     var book = Book.fromJson(searchResults);
 
     expect(book.title, "Securing DevOps");
@@ -41,7 +44,7 @@ void main() {
     expect(book.pages, 384);
     expect(book.year, 2018);
     expect(book.rating, 5);
-    expect(book.description, "An application running in the cloud can benefit from incredible efficiencies, but they come with unique security threats too. A DevOps team&#039;s highest priority is understanding those risks and hardening the system against them.Securing DevOps teaches you the essential techniques to secure your c...");
+    expect(book.description, "An application running in the cloud can benefit from incredible efficiencies, but they come with unique security threats too. A DevOps team's highest priority is understanding those risks and hardening the system against them.Securing DevOps teaches you the essential techniques to secure your c...");
     expect(book.price, "\$39.65");
     expect(book.image, Uri.parse("https://itbook.store/img/books/9781617294136.png"));
     expect(book.url, Uri.parse("https://itbook.store/books/9781617294136"));
