@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:itbook_flutter_demo/screens/details.dart';
 import 'package:itbook_flutter_demo/screens/home.dart';
 
 void main() {
@@ -16,6 +15,7 @@ class ItBookstoreApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
+      debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
     );
   }

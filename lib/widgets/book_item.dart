@@ -17,19 +17,21 @@ class BookItem extends StatelessWidget {
     return Card(
         child: Column(
           children: [
-            SizedBox(
-                width: 250,
-                height: 230,
+            Expanded(
                 child: Image.network(
-                    imageUri.toString(),
-                    fit: BoxFit.fitWidth,
-                )
+                imageUri.toString(),
+                fit: BoxFit.fitWidth,
+              )
             ),
-            Text(title,
-              style: const TextStyle(
-                  color: Colors.blueGrey,
-                  fontSize: 15
-              ),
+            Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: Text(title,
+                  style: const TextStyle(
+                      color: Colors.blueGrey,
+                      fontSize: 15
+                  ),
+                  textAlign: TextAlign.center,
+                ),
             ),
             Container(
               margin: const EdgeInsets.symmetric(vertical: 8),
