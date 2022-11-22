@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:itbook_flutter_demo/screens/book_details.dart';
 import 'package:itbook_flutter_demo/widgets/book_card.dart';
 import 'package:itbook_flutter_demo/widgets/it_bookstore_logo.dart';
 
@@ -117,10 +118,17 @@ class _HomeScreenState extends State<HomeScreen> {
                           childAspectRatio: 0.7,
                         ),
                         itemBuilder: (context, index) {
-                          return BookCard(
-                              imageUri: snapshot.data![index].image,
-                              title: snapshot.data![index].title,
-                              price: snapshot.data![index].price);
+                          return GestureDetector(
+                            onTap: () => Navigator.of(context).push(
+                              MaterialPageRoute(
+                                  builder: (context) =>
+                                      BookDetails(book: snapshot.data![index])),
+                            ),
+                            child: BookCard(
+                                imageUri: snapshot.data![index].image,
+                                title: snapshot.data![index].title,
+                                price: snapshot.data![index].price),
+                          );
                         },
                         itemCount: snapshot.data!.length,
                       ));
