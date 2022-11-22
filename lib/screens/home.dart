@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:itbook_flutter_demo/widgets/book_item.dart';
+import 'package:itbook_flutter_demo/widgets/book_card.dart';
 import 'package:itbook_flutter_demo/widgets/it_bookstore_logo.dart';
 
 import '../data/book_model.dart';
@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           childAspectRatio: 0.7,
                         ),
                         itemBuilder: (context, index) {
-                          return BookItem(
+                          return BookCard(
                               imageUri: snapshot.data![index].image,
                               title: snapshot.data![index].title,
                               price: snapshot.data![index].price);

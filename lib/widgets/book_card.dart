@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class BookItem extends StatelessWidget {
+class BookCard extends StatelessWidget {
   final Uri imageUri;
   final String title;
   final String price;
 
-  const BookItem({
+  const BookCard({
     super.key,
     required this.imageUri,
     required this.title,
