@@ -1,5 +1,5 @@
-# itbook-flutter-demo
-A simple Flutter application which allows users to search and explore IT Bookstore catalog.
+# itbook_flutter_demo
+A simple Flutter application which allows users to search and explore [IT Bookstore][it-bookstore] catalog. Their public API is available [here][it-bookstore-api].
 
 ![alt text][demo]
 
@@ -24,3 +24,5 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 [demo]: https://github.com/vzahradnik/itbook_flutter_demo/raw/main/assets/web/demo.gif "IT Bookstore demo"
+[it-bookstore]: https://itbook.store/
+[it-bookstore-api]: https://api.itbook.store/
